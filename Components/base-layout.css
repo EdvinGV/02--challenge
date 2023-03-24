@@ -1,0 +1,22 @@
+body {
+    background-color: #74C69D;
+    margin: 0
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    width: 1440px;
+    margin-left: calc(50% - 720px);
+
+}
+
+.container,
+.container * {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
