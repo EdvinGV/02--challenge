@@ -1,0 +1,53 @@
+/* Partners logo section */
+
+main>.container {
+    background-color: white;
+}
+
+.partners {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+
+
+}
+
+
+
+.partners>.text-block {
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+.partners>.text-block * {
+    color: black;
+}
+
+.home-main .textup {
+    color: #74C69D;
+}
+
+.logo-banners {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-main .button {
+    background-color: black;
+    color: white;
+    padding: 13px 29.5px 10px 29.5px;
+}
+
+.home-main .button:hover {
+    text-decoration: underline;
+    background-color: black;
+
+}
