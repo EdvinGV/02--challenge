@@ -1,4 +1,13 @@
-.he .textup {
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.hero {
+    flex-direction: column;
+}
+
+
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: flex-start;
+    justify-content: space-between;
 }
