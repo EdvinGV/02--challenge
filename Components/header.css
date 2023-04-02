@@ -1,11 +1,20 @@
+.mheader.container {
+    position: fixed;
+    height: 80px;
+    margin-top: 0;
+}
+
+
 .imglogo {
     width: 187px;
+    min-height: auto;
 }
 
 nav {
     display: flex;
     font-size: 20px;
     gap: 30px;
+
 
 }
 
@@ -21,4 +30,7 @@ nav {
 
     background-color: white;
     color: #74C69D;
+    transform: scale(1.1);
+
+
 }

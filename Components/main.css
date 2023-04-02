@@ -2,6 +2,7 @@
 
 main>.container {
     background-color: white;
+    gap: 40px;
 }
 
 .partners {
@@ -10,13 +11,12 @@ main>.container {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 40px;
-
+    min-height: auto;
+    gap: 20px;
+    margin-top: 50px;
 
 
 }
-
-
 
 .partners>.text-block {
     justify-content: space-between;
@@ -50,4 +50,168 @@ main>.container {
     text-decoration: underline;
     background-color: black;
 
+}
+
+/* meeting section */
+.meeting {
+    flex-direction: row-reverse;
+
+}
+
+.container .meeting * {
+    color: black;
+}
+
+.meeting .button {
+    color: white;
+
+}
+
+.meeting .text-block {
+    width: 40%;
+}
+
+/* creative section */
+
+
+.container .creative * {
+    color: black;
+}
+
+.creative .button {
+    color: white;
+
+}
+
+/* Team section */
+.team {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.team>.text-block {
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+.team>.text-block * {
+    color: black;
+}
+
+.home-main .textup {
+    color: #74C69D;
+}
+
+.avatars {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.avatar_page {
+    width: 279px;
+    height: 299px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px 25px 19px 25px;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.home-main .avatars * {
+    color: black;
+}
+
+
+
+
+
+.avatar {
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 1px black;
+    background-size: 70%;
+    background-position-y: 1.2em;
+    height: 70%;
+
+
+}
+
+.one {
+
+    background-image: url(../Media/peg_avatar.svg);
+
+
+}
+
+.two {
+
+    background-image: url(../Media/richard_avatar.svg);
+
+}
+
+.three {
+
+    background-image: url(../Media/alexandra_avatar.svg);
+
+}
+
+.four {
+
+    background-image: url(../Media/janet_avatar.svg);
+
+
+}
+
+.avatar_description {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    height: 25%;
+}
+
+.avatar_description>.name {
+
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    color: #212529;
+    margin: 0;
+
+}
+
+.avatar_description>.role {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: rgba(33, 37, 41, 0.75);
+    margin: 0;
+}
+
+.team .button {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
