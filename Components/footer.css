@@ -6,18 +6,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
 }
 
 .social {
-    width: 20px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 50%;
     text-align: center;
     justify-content: center;
     display: flex;
     align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 50%;
     transition-duration: 0.5s;
+
+
 }
 
 .container.mfooter .social * {
@@ -25,8 +28,7 @@
 
 }
 
-.social:hover,
-.social *:hover {
+.social:hover {
 
     background-color: rgb(255, 255, 255);
     color: #74C69D;

@@ -18,6 +18,10 @@ nav {
 
 }
 
+.mobile_meniu {
+    display: none;
+}
+
 .meniu-element {
     box-sizing: border-box;
     padding: 10px;

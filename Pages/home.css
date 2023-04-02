@@ -3,4 +3,5 @@
 @import "../Components/footer.css";
 @import "../Components/base-layout.css";
 @import "../Components/hero.css";
-@import "../Components/3rd-party/css/all.min.css"
+@import "../Components/3rd-party/css/all.min.css";
+@import "../Components/mobile.css";
