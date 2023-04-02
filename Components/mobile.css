@@ -1,0 +1,126 @@
+@media(max-width: 1300px) {
+
+    .row {
+        padding: 50px;
+    }
+}
+
+@media(max-width: 1200px) {
+
+    .row {
+        padding: 50px;
+        max-width: 100%;
+        gap: 30px;
+    }
+
+
+}
+
+@media(max-width: 1200px) {
+
+    .logo-banners {
+        flex-direction: column;
+
+    }
+
+    .partners {
+        padding: 0;
+    }
+
+    .partners * {
+        max-width: 100%;
+        gap: 50px;
+        margin-top: 0;
+    }
+
+    .home-main .text-block {
+        width: 100%;
+    }
+
+    .partners .title {
+        padding: 0;
+    }
+
+    .team {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avatars {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .mobile_meniu {
+        display: inline-block;
+    }
+
+    .meniu-element {
+        display: none;
+    }
+
+    .mheader .row {
+        max-width: 100%;
+    }
+
+    .hero .row,
+    .meeting,
+    .creative {
+
+        flex-direction: column-reverse;
+
+    }
+
+    .partners,
+    .mfooter .row {
+        flex-direction: column;
+    }
+
+    .mfooter {
+
+        padding-top: 40px;
+    }
+
+    .hero .text-block {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+
+    }
+
+
+
+}
+
+@media(max-width: 500px) {
+
+    .row {
+
+        max-width: 100%;
+    }
+
+    .hero .text-block {
+        width: 100%;
+        text-align: start;
+        justify-content: start;
+        align-items: start;
+    }
+}
+
+@media(max-width: 400px) {
+
+    .mheader {
+        height: auto;
+
+    }
+
+    .container * {
+        max-width: 100%;
+    }
+}
